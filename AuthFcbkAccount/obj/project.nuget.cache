@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "uWtyM1iN7IhdZmQ4P38Eq8eU5XFSd1+8VvSfVkwXnnHvbJeeJ2oPqELJsQb6DOv4vXgzu2j9u5YEVy/pR8DIdg==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\AuthFcbkAccount\\AuthFcbkAccount\\AuthFcbkAccount.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MIT\\.nuget\\packages\\facebook\\6.8.0\\facebook.6.8.0.nupkg.sha512",
+    "C:\\Users\\MIT\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Facebook 6.8.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Facebook",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

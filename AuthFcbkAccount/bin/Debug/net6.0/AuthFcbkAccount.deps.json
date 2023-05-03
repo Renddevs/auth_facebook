@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AuthFcbkAccount/1.0.0": {
+        "dependencies": {
+          "Facebook": "6.8.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.2"
+        },
+        "runtime": {
+          "AuthFcbkAccount.dll": {}
+        }
+      },
+      "Facebook/6.8.0": {
+        "runtime": {
+          "lib/net45/Facebook.dll": {
+            "assemblyVersion": "6.0.10.0",
+            "fileVersion": "6.8.0.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {}
+    }
+  },
+  "libraries": {
+    "AuthFcbkAccount/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Facebook/6.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZxkOacMFH3kIQPbthh8olls+mPAP2qSrNVQ7B79U2Js55cZtO1W1YlckiW50QAzyarQlIobW5N5mfYLJ4S+7Xg==",
+      "path": "facebook/6.8.0",
+      "hashPath": "facebook.6.8.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5daNXm8Hb016oETmuHXiW8jclmRR9CzM7XrOh2htYhQ/7AAYtqntZ1MrZkh09+JTtdjYdGsy2XIMPe9cg83x5w==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.17.2",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+    }
+  }
+}

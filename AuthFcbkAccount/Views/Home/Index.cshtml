@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        @Html.ActionLink("Login with Facebook", "Facebook","Home")
+        <p>Name: @TempData["name"]</p>
+        <p>Email: @TempData["email"]</p>
+        <p>Picture: <img src="@TempData["picture"]" /></p>
+    </div>
+</div>
